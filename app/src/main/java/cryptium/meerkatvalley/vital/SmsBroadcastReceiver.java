@@ -61,7 +61,7 @@ public class SmsBroadcastReceiver extends BroadcastReceiver {
                     context.sendBroadcast(receivedIntent);
                     DatabaseHelper sqlDatabase = new DatabaseHelper(context);
                     Chat chat = sqlDatabase.getChatByAddress(smsOriginatingAddress);
-                    // TODO: if chat is null, create it
+                    // if chat is null, create it
                     if (chat == null || chat.tab == null) {
                         Log.d(TAG, "chat == null");
                         chat = new Chat();

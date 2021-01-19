@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:text="Default Name"
+        android:text=""
         android:textColor="@color/colorBlue"
         android:textSize="22sp" />
 

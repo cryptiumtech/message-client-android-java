@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/message_text_background_from"
         android:padding="10dp"
-        android:text="doing well, thanks for asking"
+        android:text=""
         android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
